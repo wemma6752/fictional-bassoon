@@ -1,0 +1,140 @@
+.<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Emma Watson Vacuum Form</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- Google reCAPTCHA -->
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  <!-- PayPal SDK: Replace YOUR_PAYPAL_CLIENT_ID with your actual client ID -->
+  <script src="https://www.paypal.com/sdk/js?client-id=YOUR_PAYPAL_CLIENT_ID&currency=USD"></script>
+  <style>
+    /* Global Styles */
+    body {
+      background: linear-gradient(135deg, #74ABE2, #5563DE);
+      min-height: 100vh;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #333;
+      margin: 0;
+      padding-bottom: 30px;
+    }
+    .container-wrapper {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+    }
+    /* Carousel & Gallery */
+    .carousel-inner img {
+      object-fit: cover;
+      height: 400px;
+    }
+    /* Form Container */
+    .form-container {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+      padding: 30px;
+      margin-top: 30px;
+    }
+    h1, h2, h3 {
+      text-align: center;
+    }
+    .progress {
+      height: 8px;
+      margin-bottom: 30px;
+      background: #e0e0e0;
+      border-radius: 5px;
+      overflow: hidden;
+    }
+    .progress-bar {
+      background: #5563DE;
+      transition: width 0.3s ease;
+    }
+    .step {
+      display: none;
+    }
+    .step.active {
+      display: block;
+    }
+    .btn-custom {
+      min-width: 120px;
+    }
+    /* Membership Card & Benefits */
+    .membership-card {
+      border: 2px solid #5563DE;
+      border-radius: 10px;
+      padding: 20px;
+      margin-top: 30px;
+      text-align: center;
+      background: #f8f9fa;
+    }
+    .membership-card img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    .benefits-list {
+      text-align: left;
+      margin-top: 15px;
+    }
+    .benefits-list li {
+      margin-bottom: 10px;
+    }
+    /* Confirmation Message */
+    #confirmationMessage {
+      margin-top: 20px;
+    }
+    /* WhatsApp Referral Button */
+    .whatsapp-btn {
+      background: #25D366;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      display: inline-block;
+      margin-top: 15px;
+    }
+    .whatsapp-btn:hover {
+      background: #1ebe5d;
+      color: #fff;
+    }
+    /* QR Code Section */
+    .qr-code-section {
+      margin-top: 20px;
+      text-align: center;
+    }
+    .qr-code-section img {
+      max-width: 220px;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container-wrapper">
+    <!-- Emma Watson Image Gallery Carousel -->
+    <h1>Emma Watson Gallery</h1>
+    <div id="emmaCarousel" class="carousel slide mb-4" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <!-- Replace with your authorized images -->
+          <img src="https://via.placeholder.com/1000x400?text=Emma+Watson+Image+1" class="d-block w-100" alt="Emma Watson Image 1">
+        </div>
+        <div class="carousel-item">
+          <img src="https://via.placeholder.com/1000x400?text=Emma+Watson+Image+2" class="d-block w-100" alt="Emma Watson Image 2">
+        </div>
+        <div class="carousel-item">
+          <img src="https://via.placeholder.com/1000x400?text=Emma+Watson+Image+3" class="d-block w-100" alt="Emma Watson Image 3">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#emmaCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="
+
+PDF Editor
